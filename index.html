@@ -6,23 +6,106 @@
     <title>YouTube</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <div class="headerl">
             <i class="ri-menu-line"></i>
             <img class="logo" src="./image/logo.png" alt="Italian Trulli">
-        </div>
+        </div> 
         <div class="header2">
-            <input type="text" placeholder="Search..">
-            <button class="Search"><i class="ri-search-line"></i></button>
-            <button class="mic"><i class="ri-mic-fill"></i></button>
+            <form action="">
+                <input type="text" placeholder="Search..">
+                <button><i class="ri-search-line"></i></button>
+            </form>
+            <i class="ri-mic-fill"></i>
         </div>
         <div class="header3">
-            <button class="vadd"><i class="ri-video-add-line"></i></button>
-            <button class="profile"><i class="ri-youtube-fill"></i></button>
+           <i class="ri-video-add-line"></i>
+           <i class="ri-notification-2-line"></i>
+           <i class="ri-youtube-fill"></i>
         </div>
     </header>
+   
+     
+        <div class="main">
+            <div class="sidebar">
+                <ul class="nav">
+                    <li><a href="#"><i class="ri-home-4-fill"></i> Home</a></li>
+                    <li><a href="#"><i class="ri-folder-video-line"></i> Short</a></li>
+                    <li><a href="#"><i class="ri-slideshow-3-line"></i> Subscription</a></li>
+                    <hr/>
+                    <li><a href="#"><i class="ri-history-line"></i> History</a></li>
+                    <li><a href="#"><i class="ri-time-line"></i> Watch Later</a></li>
+                    <li><a href="#"><i class="ri-thumb-up-line"></i> Liked Videos</a></li>
+                </ul>
+                <hr/>
+            </div>
+       
+              <div class="Videos">
+                <h1>Recommended</h1>
+
+                <div class="videos__container">
+                  <!-- Single Video starts -->
+                  <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="/image/1.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="/image/3.jpg" alt="ss" />
+                      </div>
+                      <div class="title">
+                        <h3>
+                          BEUTIFUL VIEW
+                        </h3>
+                        <a href="">YOUTUBE</a>
+                        <span>10M Views • 3 Months Ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single Video Ends -->
+        
+                  <!-- Single Video starts -->
+                  <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="/image/2.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img src="/image/1.jpg" alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>Animal planet</h3>
+                        <a href="">LOIN</a>
+                        <span>100k Views • 3 Months Ago</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Single Video Ends -->
+        
+                  <div class="video">
+                    <div class="video__thumbnail">
+                      <img src="/image/3.jpg" alt="" />
+                    </div>
+                    <div class="video__details">
+                      <div class="author">
+                        <img
+                          src="/image/1.jpg"alt="" />
+                      </div>
+                      <div class="title">
+                        <h3>Bella Ciao Full Song | La Casa De Papel | Money Heist | Netflix India</h3>
+                        <a href="">Netflix</a>
+                        <span>10M Views • 11 Months Ago</span>
+                      </div>
+                    </div>
+                  </div>
+        
+              </div>
+        </div>
+
+   
+          
 </body>
 </html>
